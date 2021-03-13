@@ -1,0 +1,19 @@
+{
+    "name": "turch/swift-mailer",
+    "description": "Package using SwiftMailer to work with mail",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alex Turch",
+            "email": "alexturch97@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
